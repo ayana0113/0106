@@ -1,0 +1,409 @@
+/* PC、スマホ共通スタイル */
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+/* toppage */
+
+/* ヘッダー */
+.header-container{
+  display: flex;
+  text-align: left;
+}
+
+/* ロゴ写真 */
+.logo-img{
+  width: 80px;
+}
+
+/* サイトタイトル */
+.site-title{
+  font-size: 24px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.site-title > a{
+  text-decoration: none;
+}
+.site-title > a:link{
+  color: black;
+}
+.site-title > a:visited{
+  color: black;
+}
+.site-title > a:hover{
+  color: black;
+}
+.site-title > a:active{
+  color: black;
+}
+
+/* ナビゲーション */
+
+.nav-pc{
+  display: none;
+  font-size: 20px;
+  margin: 20px 0;
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+.nav-pc a{
+  text-decoration: none;
+}
+.nav-pc a:link{
+  color: black;
+}
+.nav-pc a:visited{
+  color: black;
+}
+.nav-pc a:hover{
+  color: blue;
+}
+.nav-pc a:active{
+  color: blue;
+}
+
+
+/* メイン画像 */
+.rode-img{
+  margin: 60px auto;
+}
+
+/* お知らせ */
+.informaition{
+  text-align: center;
+  margin: auto;
+}
+ 
+/* お知らせ内容 */
+p.text{
+  color: blue;
+}
+
+p.text > a{
+  text-decoration: none;
+}
+
+p.text > a:link{
+  color: blue;
+}
+
+P.text > a:visited{
+  color: blue;
+}
+
+P.text > a:hover{
+  color: blue;
+}
+
+P.text > a:active{
+  color: blue;
+}
+
+/* 会社挨拶 　写真の上に挨拶文*/
+
+.company-greeting2 {
+  color: aliceblue;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  padding: 80px 0 0 0;
+  letter-spacing: 0.5em;
+  height: 200px;
+  background-image: url(rode/rode3.jpg);
+  background-repeat: repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.37);
+  opacity: 0.5;
+}
+
+/* 会社案内 */
+.company-brochre-container{
+  vertical-align: bottom;
+  height: 150px;
+  color: aliceblue;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.5em;
+  background-image: url(kaishashoumen/gazou2.jpg);
+  background-repeat: no-repeat;
+}
+
+/* 採用情報 */
+.recruit-container{
+  height: 150px;
+  color: aliceblue;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.5em;
+  background-image: url(rode/rode7.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+/* 舗装工事 */
+.hosou-container{
+  height: 150px;
+  color: aliceblue;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.5em;
+  background-image: url(rode/rode1.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+/* 施工事例 */
+.works-container{
+  height: 150px;
+  color: aliceblue;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.5em;
+  background-image: url(rode/rode12.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+/* 砂利販売 */
+.sales-container{
+  height: 150px;
+  color: aliceblue;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.5em;
+  background-image: url(jyari/jyarisample2.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+/* お見積り */
+.estimate-container{
+  height: 150px;
+  color: aliceblue;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.5em;
+  background-image: url(rode/rode8.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+/* フッター */
+footer{
+  margin: 10px;
+  text-align: center;
+  background-color: darkblue;
+  color: aliceblue;
+}
+
+.site-title2{
+margin: 0;
+padding: 10px 0 0 0;
+}
+
+.adress{
+  margin: 0;
+}
+/* コピーライト */
+.copyright{
+  font-size: 10px;
+}
+
+/* グーグルマップ */
+.map{
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 25%;
+  position: relative;
+  margin: 20px 0;
+}
+
+.map iframe{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+/* 会社案内ページ */
+
+/* 会社案内・ご挨拶 */
+.company-title{
+  background-color: darkblue;
+  color: aliceblue;
+  text-align: center;
+  letter-spacing: 18px;
+}
+
+.company-nav{
+  background-color: darkblue;
+  color: aliceblue;
+  text-align: center;
+  letter-spacing: 12px;
+}
+
+.goaisatu2{
+  margin: 36px 0;
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
+}
+
+.logo-img2{
+  width: 120px;
+  text-align: center;
+}
+
+.takahashikenji{
+  width: 300px;
+  text-align: center;
+}
+
+/* 経営方針 */
+.keiei-h3{
+  text-decoration: underline;
+}
+
+/* 会社概要 */
+
+th{
+  background-color: rgb(224, 221, 221);
+  font-size: 16px;
+}
+
+th,td{
+  border: solid 1px;
+  padding: 10px;
+}
+
+table{
+  margin: auto;
+  border-collapse: collapse;
+}
+
+/* 登録許可 */
+.touroku-h3{
+  text-decoration: underline;
+}
+
+/* 加入団体 */
+.kanyu-p{
+
+  text-align: center;
+}
+
+/* PCスタイル */
+@media(min-width:768px) {
+ 
+  /* トップページ */
+  /* 横幅設定 */
+  body{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* 会社名 */
+  .logo-img{
+    width: 120px;
+  }
+  
+  .site-title{
+    font-size: 36px;
+  }
+  
+  /* ナビゲーションレイアウト */
+  .nav-pc{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav-pc > a{
+    text-decoration: none;
+  }
+  .nav-pc > a:link{
+    color: black;
+  }
+  .nav-pc > a:visited{
+    color: black;
+  }
+  .nav-pc > a:hover{
+    color: blue;
+  }
+  .nav-pc > a:active{
+    color: blue;
+  }
+  
+  h1.center{
+    font-size: 36px;
+    letter-spacing: 30px;
+  }
+  
+  .company{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .hosou-works{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .sales-estimate{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /* 会社案内 */
+  /* ご挨拶 */
+
+  .sign{
+    display: flex;
+    justify-content: center;
+  }
+
+  /* 経営方針 */
+
+  .keiei-1-2-3{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .keiei-4-5-6{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* 登録・許可 */
+  .touroku-1-2-3{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .touroku-4-5{
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+}
